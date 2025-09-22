@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_website_components_information",
+  "info": {
+    "displayName": "Information",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_en": {
+      "type": "string",
+      "required": true
+    },
+    "description_en": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title_ru": {
+      "type": "string",
+      "required": true
+    },
+    "description_ru": {
+      "type": "richtext",
+      "required": true
+    },
+    "title_hy": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description_hy": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

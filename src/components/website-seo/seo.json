@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_website_seo_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_en": {
+      "type": "string",
+      "required": true
+    },
+    "description_en": {
+      "type": "text",
+      "required": true
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "title_hy": {
+      "type": "string",
+      "required": true
+    },
+    "title_ru": {
+      "type": "string",
+      "required": true
+    },
+    "description_hy": {
+      "type": "text",
+      "required": true
+    },
+    "description_ru": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

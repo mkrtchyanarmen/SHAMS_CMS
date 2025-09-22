@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "doctors",
+  "info": {
+    "singularName": "doctor",
+    "pluralName": "doctors",
+    "displayName": "Doctor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullname_en": {
+      "type": "string",
+      "required": true
+    },
+    "description_en": {
+      "type": "richtext",
+      "required": false
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "website-seo.seo"
+    },
+    "fullname_ru": {
+      "type": "string",
+      "required": true
+    },
+    "fullname_hy": {
+      "type": "string"
+    },
+    "description_hy": {
+      "type": "richtext"
+    },
+    "description_ru": {
+      "type": "richtext"
+    }
+  }
+}
